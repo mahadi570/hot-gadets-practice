@@ -1,0 +1,94 @@
+body{
+    margin: 10px auto;
+    padding: 0;
+    width: 85%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 15px;
+    padding: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.banner{
+    background: no-repeat url(bg-1.png);
+    background-position: right center;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.banner-text h1{
+    margin-bottom: 25px;
+}
+
+.banner-text p{
+    padding-right: 50px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.primary-btn{
+    background-color: tomato;
+    font-weight: bold;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
+
+.banner img{
+    height: 400px;
+}
+
+.mobile-heading-container, .laptop-heading-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.see-all{
+    color: orange;
+    font-weight: bold;
+}
+
+.phone-container, .laptop-container{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.phone-container img{
+    height: 200px;
+}
+
+.phone-container div, .laptop-container div{
+    box-shadow: 5px 20px 15px  gray;
+    margin-right: 5px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.laptop-container img{
+    width: 250px;
+}
