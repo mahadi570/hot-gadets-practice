@@ -92,3 +92,31 @@ nav ul li a{
 .laptop-container img{
     width: 250px;
 }
+footer form{
+    height:  150px;
+    width: 400px;
+    margin: auto;
+    padding: 30px;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+form p{
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.sub-email{
+    height: 30px;
+    width: 250px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+footer small{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
